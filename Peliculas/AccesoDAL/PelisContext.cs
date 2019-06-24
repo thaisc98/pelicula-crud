@@ -10,7 +10,7 @@ namespace AccesoDAL
 
 		}
 
-		//DbSet son las tablas
+		//Dbset
 		public DbSet<Pelicula> Peliculas { get; set; }
 	}
 }

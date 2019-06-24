@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace EntidadesBOL
+namespace Peliculas.ViewModels
 {
-	public class Pelicula 
+	public class PeliIndexViewModel
 	{
 		public int Id { get; set; }
 
@@ -14,6 +14,5 @@ namespace EntidadesBOL
 
 		public DateTime FechaDeEstreno { get; set; }
 
-		public DateTime AgregadoEn { get; set; }
 	}
 }
