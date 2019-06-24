@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peliculas", "Peliculas\Peliculas.csproj", "{045A04DE-6D36-4517-8DE7-85669B4F8BD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peliculas", "Peliculas\Peliculas.csproj", "{045A04DE-6D36-4517-8DE7-85669B4F8BD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntidadesBOL", "EntidadesBOL\EntidadesBOL.csproj", "{369EDA02-0B3B-4DAD-A889-98EB7A4DB3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDAL", "AccesoDAL\AccesoDAL.csproj", "{D1A2BDF0-8237-460A-944A-B65D0F0DD585}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{045A04DE-6D36-4517-8DE7-85669B4F8BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{045A04DE-6D36-4517-8DE7-85669B4F8BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{045A04DE-6D36-4517-8DE7-85669B4F8BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369EDA02-0B3B-4DAD-A889-98EB7A4DB3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369EDA02-0B3B-4DAD-A889-98EB7A4DB3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369EDA02-0B3B-4DAD-A889-98EB7A4DB3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369EDA02-0B3B-4DAD-A889-98EB7A4DB3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A2BDF0-8237-460A-944A-B65D0F0DD585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A2BDF0-8237-460A-944A-B65D0F0DD585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A2BDF0-8237-460A-944A-B65D0F0DD585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A2BDF0-8237-460A-944A-B65D0F0DD585}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
