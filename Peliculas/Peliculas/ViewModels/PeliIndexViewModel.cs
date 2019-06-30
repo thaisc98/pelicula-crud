@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Peliculas.ViewModels
 {
@@ -12,6 +13,7 @@ namespace Peliculas.ViewModels
 
 		public string ImagenURL { get; set; }
 
+		[DataType(DataType.Date)]
 		public DateTime FechaDeEstreno { get; set; }
 
 	}

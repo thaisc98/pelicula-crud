@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Peliculas.ViewModels.PeliIndexViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Inicioantes</h2>
+
+<p>
+    <a asp-action="Agregar" >Agregar</a>
+</p>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="@item.ImagenURL" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Titulo  </h5>
+                    <p class="card-text">@item.Descripcion. Estrenada en: @item.FechaDeEstreno.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@*
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Titulo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descripcion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ImagenURL)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaDeEstreno)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titulo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImagenURL)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaDeEstreno)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>*@
